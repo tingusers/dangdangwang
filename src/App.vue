@@ -2,6 +2,7 @@
   <div id="app">
     <router-view></router-view>
     <TabBar v-if="$route.meta.tabBar"/>
+    <div>变更内容</div>
   </div>
 </template>
 <script>
