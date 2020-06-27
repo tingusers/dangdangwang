@@ -2,6 +2,7 @@
   <div id="app">
     <router-view></router-view>
     <TabBar v-if="$route.meta.tabBar"/>
+    <p>123</p>
   </div>
 </template>
 <script>
