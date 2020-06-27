@@ -3,6 +3,7 @@
     <router-view></router-view>
     <TabBar v-if="$route.meta.tabBar"/>
     <p>123</p>
+    <label for="">abc</label>
   </div>
 </template>
 <script>
