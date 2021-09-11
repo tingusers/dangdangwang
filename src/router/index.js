@@ -6,6 +6,8 @@ import home from "./home"
 import more from "./more"
 import list from "./list"
 import shopping from "./shopping"
+import user from './user'
+import login from './login'
 Vue.use(VueRouter)
 
 
@@ -16,6 +18,8 @@ export default new VueRouter({
         home,
         more,
         list,
-        shopping
+        shopping,
+        user,
+        login
     ]
 })
