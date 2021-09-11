@@ -4,7 +4,7 @@
     <!-- <TabBar v-if="$route.meta.tabBar"/>
     <p>123</p>
     <label for="">abc</label> -->
-    <label for="">{{num}}---{{rmb}}</label>
+    <label for="">{{num}}---{{rmb}}</label> 
   </div>
 </template>
 <script>
